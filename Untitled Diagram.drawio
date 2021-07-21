@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T07:10:47.941Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="ZYjLqS--lXMJKA5if5u0" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-21T07:47:12.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="d5HzSfpo7OgteGXwj2WQ" version="14.8.6" type="github">
   <diagram id="dn-KX7Rt7DW11E0K5ElT" name="Page-1">
-    <mxGraphModel dx="1374" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2201" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,6 +28,9 @@
         <mxCell id="HImTkjeCyv4W1WpoKnVU-1" value="map集中管理对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="50" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="HImTkjeCyv4W1WpoKnVU-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HImTkjeCyv4W1WpoKnVU-2" target="HImTkjeCyv4W1WpoKnVU-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HImTkjeCyv4W1WpoKnVU-2" value="tree" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="150" width="120" height="60" as="geometry" />
         </mxCell>
@@ -37,11 +40,45 @@
         <mxCell id="HImTkjeCyv4W1WpoKnVU-4" value="tree3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="360" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="HImTkjeCyv4W1WpoKnVU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HImTkjeCyv4W1WpoKnVU-6" target="HImTkjeCyv4W1WpoKnVU-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HImTkjeCyv4W1WpoKnVU-6" value="list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HImTkjeCyv4W1WpoKnVU-7" value="list直接根据map判断，有没有选中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="580" y="110" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HImTkjeCyv4W1WpoKnVU-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HImTkjeCyv4W1WpoKnVU-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HImTkjeCyv4W1WpoKnVU-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HImTkjeCyv4W1WpoKnVU-14" target="HImTkjeCyv4W1WpoKnVU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HImTkjeCyv4W1WpoKnVU-14" value="勾选" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HImTkjeCyv4W1WpoKnVU-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="HImTkjeCyv4W1WpoKnVU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="320" as="sourcePoint" />
+            <mxPoint x="620" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HImTkjeCyv4W1WpoKnVU-20" value="不存在 去map增加" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="330" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HImTkjeCyv4W1WpoKnVU-23" value="已存在，去map删除" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HImTkjeCyv4W1WpoKnVU-26" value="tree" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HImTkjeCyv4W1WpoKnVU-28" value="点击复选框" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="150" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
