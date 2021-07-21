@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T08:02:34.500Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="kM418goPgMW7r3GHWQg8" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-21T08:34:30.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="ikzZkJNlrf48ibaTfrGG" version="14.8.6" type="github">
   <diagram id="dn-KX7Rt7DW11E0K5ElT" name="Page-1">
-    <mxGraphModel dx="2201" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2017" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,8 +77,16 @@
         <mxCell id="HImTkjeCyv4W1WpoKnVU-26" value="NodeCache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-50" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HImTkjeCyv4W1WpoKnVU-28" value="点击复选框&lt;br&gt;先从缓存中检查&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="70" y="105" width="100" height="30" as="geometry" />
+        <mxCell id="HImTkjeCyv4W1WpoKnVU-28" value="点击复选框&lt;br&gt;先从缓存中检查&lt;br&gt;差量去map里删&lt;br&gt;增量加进map&lt;br&gt;把当前值替换缓存&lt;br&gt;checkeys使用map的key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="45" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HImTkjeCyv4W1WpoKnVU-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HImTkjeCyv4W1WpoKnVU-26" target="HImTkjeCyv4W1WpoKnVU-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="30" />
+              <mxPoint x="450" y="30" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="HImTkjeCyv4W1WpoKnVU-29" value="selectNode缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-50" y="100" width="100" height="20" as="geometry" />
@@ -87,7 +95,7 @@
           <mxGeometry x="-50" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HImTkjeCyv4W1WpoKnVU-31" value="NodeCache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="-50" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
